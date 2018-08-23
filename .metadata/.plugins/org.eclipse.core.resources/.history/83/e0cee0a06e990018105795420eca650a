@@ -1,0 +1,17 @@
+package com.citi.domain;
+
+public class Elephant extends Animal {
+
+	@Override
+	void makeSound() {
+		System.out.println("Trumpet");
+
+	}
+
+	@Override
+	void displayLifeSpan() {
+		System.out.println("100 years");
+
+	}
+
+}

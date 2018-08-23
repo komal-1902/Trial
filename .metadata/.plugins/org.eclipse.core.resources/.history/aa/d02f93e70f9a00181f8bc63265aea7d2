@@ -1,0 +1,18 @@
+import java.io.FileWriter;
+
+public class DemoFileWrite {
+
+	public static void main(String[] args) {
+		
+		try {
+			FileWriter file = new FileWriter("abc.txt");
+			file.write("Citi, Pune");
+			System.out.println("File created and data inserted");
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+}

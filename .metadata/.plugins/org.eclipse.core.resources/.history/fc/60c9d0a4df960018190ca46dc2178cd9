@@ -1,0 +1,11 @@
+
+public class DemoCmdLine {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Arguments: " + args.length);
+		System.out.println("1st argument: " + args[0]);
+
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class MathFunctions {
+
+	public static void main(String[] args) {
+		
+		double num1 = 4.2;
+		double num2 = 5.8;
+		
+		System.out.println("Ceil: " + Math.ceil(num1));
+		System.out.println("");
+		
+
+	}
+
+}

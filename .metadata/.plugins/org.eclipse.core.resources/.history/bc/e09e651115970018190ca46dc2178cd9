@@ -1,0 +1,21 @@
+package com.loops;
+
+import java.util.Scanner;
+
+public class DemoSwitch {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		String checkString = scan.nextLine();
+		
+		switch(checkString) {
+		case "A": 
+		case "E":
+		case "I":
+			
+		}
+
+	}
+
+}

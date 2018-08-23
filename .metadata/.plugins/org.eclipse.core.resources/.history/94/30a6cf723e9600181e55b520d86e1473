@@ -1,0 +1,23 @@
+package RemoteController;
+
+public class Remotee implements RemoteInterface {
+
+	@Override
+	public void switchOn() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void switchOff() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void menu() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

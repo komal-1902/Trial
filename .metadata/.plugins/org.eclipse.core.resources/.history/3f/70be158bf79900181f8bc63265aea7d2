@@ -1,0 +1,13 @@
+
+public class DemoString {
+
+	public static void main(String[] args) {
+		
+		String name = "Citi";
+		System.out.println("Initial value of name: "+ name);
+		name.concat(", Pune");
+		System.out.println("Value after concatenation: " + name);
+
+	}
+
+}

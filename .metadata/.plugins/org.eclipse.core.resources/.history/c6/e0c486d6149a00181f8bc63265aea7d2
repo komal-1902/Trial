@@ -1,0 +1,21 @@
+package com.pojo;
+
+public class Student {
+
+	private int rollNo, total;
+	private String name;
+	
+	public Student() {
+		
+	}
+
+	public Student(int rollNo, int total, String name) {
+		super();
+		this.rollNo = rollNo;
+		this.total = total;
+		this.name = name;
+	}
+	
+	
+	
+}

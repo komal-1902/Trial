@@ -1,0 +1,13 @@
+import java.io.InputStreamReader;
+
+public class DemoReadData {
+
+	public static void main(String[] args) throws ArithmeticException {
+		
+		InputStreamReader ir = new InputStreamReader(System.in);
+
+		System.out.println((21/0));
+		//int value = ir.read();
+	}
+
+}

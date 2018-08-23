@@ -1,0 +1,19 @@
+package com.pojo;
+
+public class Manager extends Employee {
+	
+	String department;
+	int incentives;
+	
+	public Manager() {
+		department = "ISG";
+		incentives = 5;
+	}
+	
+	public Manager(int empId, String empName, int age, double salary, String department, int incentives) {
+		super(empId, empName, age, salary);
+		this.department = department;
+		this.incentives = incentives;
+	}
+
+}

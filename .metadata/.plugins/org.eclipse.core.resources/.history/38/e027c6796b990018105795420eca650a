@@ -1,0 +1,13 @@
+package com.myabstract;
+
+public class Rectangle extends Shape {
+	
+	int length, breadth;
+
+	@Override
+	public double area() {
+		
+		return (length * breadth);
+	}
+
+}

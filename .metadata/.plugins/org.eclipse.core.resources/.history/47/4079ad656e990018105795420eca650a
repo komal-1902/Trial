@@ -1,0 +1,23 @@
+package com.citi.domain;
+
+public class Dog extends Animal {
+	
+	String sound, lifeSpan;
+	
+	public Dog() {
+		
+	}
+
+	@Override
+	void makeSound() {
+		System.out.println("Bark");
+
+	}
+
+	@Override
+	void displayLifeSpan() {
+		System.out.println("10 years");
+
+	}
+
+}

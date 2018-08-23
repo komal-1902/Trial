@@ -1,0 +1,11 @@
+package com.citi.domain;
+
+public class TestAnimal {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

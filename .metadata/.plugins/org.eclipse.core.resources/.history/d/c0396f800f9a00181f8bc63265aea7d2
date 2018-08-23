@@ -1,0 +1,14 @@
+import java.io.FileWriter;
+
+public class DemoFileWrite {
+
+	public static void main(String[] args) {
+		
+		try {
+			FileWriter file = new FileWriter("abc.txt");
+			file.write("Citi, Pune");
+		}
+
+	}
+
+}

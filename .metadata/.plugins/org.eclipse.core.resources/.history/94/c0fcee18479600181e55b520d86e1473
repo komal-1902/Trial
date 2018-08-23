@@ -1,0 +1,21 @@
+package RemoteController;
+
+public class Remote implements RemoteInterface {
+
+	@Override
+	public void switchOn() {
+
+	}
+
+	@Override
+	public void switchOff() {
+		
+	}
+
+	public void menu() {
+		
+	}
+	
+	
+
+}

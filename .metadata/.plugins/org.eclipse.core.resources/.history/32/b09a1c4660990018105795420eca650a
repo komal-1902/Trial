@@ -1,0 +1,8 @@
+package com.pojo;
+
+public interface EmployeeIO {
+	
+	public static final String NAME = "Citi";
+	
+
+}

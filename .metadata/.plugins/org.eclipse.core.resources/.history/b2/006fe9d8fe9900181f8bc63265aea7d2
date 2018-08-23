@@ -1,0 +1,16 @@
+
+public class DemoReflection {
+
+	public static void main(String[] args) {
+		
+		Class class1;
+		try {
+			class1 = Class.forName("java.lang.String");
+		}
+		catch(ClassNotFoundException c) {
+			System.out.println(c.getMessage());
+		}
+
+	}
+
+}

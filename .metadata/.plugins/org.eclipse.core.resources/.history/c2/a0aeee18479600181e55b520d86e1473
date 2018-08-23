@@ -1,0 +1,8 @@
+package RemoteController;
+
+public interface RemoteInterface {
+	
+	public void switchOn();
+	public void switchOff();
+
+}

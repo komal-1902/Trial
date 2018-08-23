@@ -1,0 +1,32 @@
+package com.controller;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+import com.myinterfaces.StudentFileIO;
+import com.pojo.Student;
+
+public class StudentFileIOImpl implements StudentFileIO {
+
+	@Override
+	public Student[] readStudents() {
+		
+		return null;
+	}
+
+	@Override
+	public int writeStudents(Student[] student) {
+		
+		try {
+			FileOutputStream fout = new FileOutputStream("studentData.txt");
+			
+		} catch (FileNotFoundException e) {
+			
+			e.printStackTrace();
+		}
+		
+		
+		return 0;
+	}
+
+}

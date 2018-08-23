@@ -1,0 +1,18 @@
+
+public class DemoCmdLine {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Arguments: " + args.length);
+		
+		System.out.println("\nArguments:");
+		
+		int sumOfArguments = 0;
+		
+		for(String arg : args) {
+			sumOfArgumemts += Integer.parseInt(arg);
+		}
+
+	}
+
+}

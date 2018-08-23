@@ -1,0 +1,17 @@
+package com.myabstract;
+
+abstract public class Shape {
+	
+	String name;
+	
+	public Shape() {
+		name = "No name";
+	}
+	
+	public Shape(String name) {
+		this.name = name;
+	}
+
+	abstract public double area();
+	
+}

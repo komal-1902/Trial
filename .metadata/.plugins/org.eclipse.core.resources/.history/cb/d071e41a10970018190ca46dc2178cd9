@@ -1,0 +1,20 @@
+package com.pojo;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter roll no: ");
+		int rollNo = scan.nextInt();
+		System.out.println("Enter name: ");
+		String name = scan.nextLine();
+		System.out.println("Enter marks for three subjects: ");
+		int m1 = scan.nextInt();
+		int m2 = scan.nextInt();
+		int m3 = scan.nextInt();
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.citi.domain;
+
+public class Cat extends Animal {
+
+	@Override
+	void makeSound() {
+		System.out.println("Meow");
+
+	}
+
+	@Override
+	void displayLifeSpan() {
+		System.out.println("15 years");
+
+	}
+
+}

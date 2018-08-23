@@ -1,0 +1,5 @@
+package com.myabstract;
+
+abstract public class Animal {
+
+}

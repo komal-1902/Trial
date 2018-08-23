@@ -1,0 +1,5 @@
+package com.citi.domain;
+
+public class Animal {
+
+}

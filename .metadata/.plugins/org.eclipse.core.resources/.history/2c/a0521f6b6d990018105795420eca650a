@@ -1,0 +1,17 @@
+package com.citi.domain;
+
+public class Dog extends Animal {
+
+	@Override
+	void makeSound() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void displayLifeSpan() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.array;
+
+public class ArraySearch {
+
+	public static void main(String[] args) {
+		
+		int[] numbers = {5, 10, 15, 24, 45};
+
+	}
+
+}

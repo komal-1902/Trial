@@ -1,0 +1,22 @@
+package com.controller;
+
+import java.util.Scanner;
+
+import com.myinterfaces.StudentIO;
+import com.pojo.Student;
+
+public class StudentIOImpl implements StudentIO {
+
+	@Override
+	public Student[] readFromUser() {
+		Scanner scan = new Scanner(System.in);
+		
+		return null;
+	}
+
+	@Override
+	public void writeToUser(Student[] student) {
+		
+	}
+
+}

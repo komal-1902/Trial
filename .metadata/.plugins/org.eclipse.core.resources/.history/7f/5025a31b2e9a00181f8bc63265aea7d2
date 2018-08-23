@@ -1,0 +1,20 @@
+package com.controller;
+
+import com.myinterfaces.StudentFileIO;
+import com.pojo.Student;
+
+public class StudentFileIOImpl implements StudentFileIO {
+
+	@Override
+	public Student[] readStudents() {
+		
+		return null;
+	}
+
+	@Override
+	public int writeStudents(Student[] student) {
+		
+		return 0;
+	}
+
+}

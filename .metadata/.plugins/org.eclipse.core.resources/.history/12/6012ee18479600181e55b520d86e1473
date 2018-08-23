@@ -1,0 +1,5 @@
+package RemoteController;
+
+public class TVRemote extends Remote {
+
+}

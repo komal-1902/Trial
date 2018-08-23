@@ -1,0 +1,25 @@
+
+public class Employee {
+	
+	private int empId;
+	private String empName;
+	
+	private static int empCount;
+	
+	static {
+		empCount = 0;
+	}
+
+	public Employee() {
+		empId = 101;
+		empName = "Abcd";
+	}
+
+	public Employee(int empId, String empName) {
+		this.empId = empId;
+		this.empName = empName;
+	}
+	
+	
+
+}

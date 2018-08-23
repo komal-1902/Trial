@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class EmployeeArray {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number of employees:");
+		int num = scan.nextInt();
+		
+		System.out.println("Enter details:\n");
+		for(int i = 0; i < num; i++) {
+			System.out.println("For employee " + (i+1));
+		}
+
+	}
+
+}

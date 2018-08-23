@@ -1,0 +1,15 @@
+package com.array;
+
+import java.util.Scanner;
+
+public class Demo1D {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter name of 5 of your friends: ");
+		String[] friends = new {""};
+
+	}
+
+}

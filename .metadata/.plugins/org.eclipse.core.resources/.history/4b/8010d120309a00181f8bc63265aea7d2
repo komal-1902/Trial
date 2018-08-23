@@ -1,0 +1,19 @@
+import com.controller.StudentFileIOImpl;
+import com.controller.StudentIOImpl;
+import com.pojo.Student;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		int choice = 1, option = 0;
+		StudentFileIOImpl fileIO = new StudentFileIOImpl();
+		StudentIOImpl userIO = new StudentIOImpl();
+		Student[] students = userIO.readFromUser();
+		do {
+			System.out.println("----------Menu----------\n1.Find student\n2.Display all students");
+		}while(choice == 1);
+
+	}
+
+}

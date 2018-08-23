@@ -1,0 +1,21 @@
+
+public class Demo1D {
+
+	public static void main(String[] args) {
+
+		int[] numbers;
+		
+		numbers = new int[5];
+		numbers[0] = 2;
+		numbers[1] = 4;
+		numbers[2] = 2;
+		numbers[3] = 5;
+		numbers[4] = 6;
+		
+		System.out.println("Element 0: " + numbers[0]);
+		System.out.println("Element 1: " + numbers[1]);
+		System.out.println("Element 2: " + numbers[2]);
+
+	}
+
+}

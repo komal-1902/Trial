@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+import com.pojo.Employee;
+
+public class TestEmployee1 {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter Employee ID:");
+		int empId = scan.nextInt();
+		System.out.println("Enter Employee Name:");
+		String flush = scan.nextLine();
+		String name = scan.nextLine();
+		System.out.println("Enter Employee Age:");
+		int age = scan.nextInt();
+		System.out.println("Enter Employee Salary:");
+		double sal = scan.nextDouble();
+		System.out.println("Enter Employee Department:");
+		String department = scan.next();
+		System.out.println("Enter Employee Incentives:");
+		int incentives = scan.nextInt();
+		Employee emp = new Employee(empId, name, age, sal);
+		emp.display();
+
+	}
+
+}

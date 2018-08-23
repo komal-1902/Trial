@@ -1,0 +1,10 @@
+
+public class DemoReadData {
+
+	public static void main(String[] args) {
+		
+		InputStreamReader ir = new InputStreamReader(System.in);
+
+	}
+
+}

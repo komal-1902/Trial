@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class DemoString {
+
+	public static void main(String[] args) {
+		
+		String name = "Citi";
+		System.out.println("Initial value of name: "+ name);
+		name.concat(", Pune");
+		System.out.println("Value after concatenation: " + name);
+		
+		Scanner scan = new Scanner(System.in);
+		String input = scan.next();
+		
+		System.out.println("String: " + input);
+		input = input.substring(0, 5)
+
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		
+		Person person;			//Create reference, allocated  on stack memory
+		person = new Person();	//Create object, allocated on heap memory
+		person.display();
+		
+	}
+
+}

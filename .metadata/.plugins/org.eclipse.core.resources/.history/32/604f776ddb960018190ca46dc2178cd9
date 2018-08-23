@@ -1,0 +1,12 @@
+
+public class Demo1DObjects {
+	
+	private void psvm() {
+		
+		Person[] persons;
+		
+		persons = new Person[5]; 
+
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class DemoArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList list = new ArrayList();
+		list.add(10);
+		list.add(new Integer(123));
+		list.add(90);
+		list.add(10);
+		list.add(67);
+		
+		System.out.println("Number of elements: " + list.size());
+		
+		System.out.println("Before addition: " + list);
+		
+		list.add(2, 88);
+		
+		System.out.println("After addition: "  + list);
+
+	}
+
+}

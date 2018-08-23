@@ -1,0 +1,10 @@
+package com.citi.domain;
+
+abstract public class Animal {
+	
+	String sound;
+	String lifeSpan;
+	
+	
+
+}

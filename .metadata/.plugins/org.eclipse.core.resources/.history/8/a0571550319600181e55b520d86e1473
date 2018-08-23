@@ -1,0 +1,21 @@
+
+public class Person {
+	
+	private int age;
+	private String name;
+	
+	public Person() {
+		age = 21;
+		name = "Komal";
+	}
+	
+	public void display() {
+		System.out.println("Name: " + name + "\tAge: " + age);
+	}
+	
+	public void setValues(int a, String n) {
+		age = a;
+		name = n;
+	}
+	
+}

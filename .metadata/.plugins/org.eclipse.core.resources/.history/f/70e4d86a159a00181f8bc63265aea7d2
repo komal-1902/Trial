@@ -1,0 +1,17 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class DemoSerialization {
+
+	public static void main(String[] args) {
+		
+		try {
+			FileOutputStream fo = new FileOutputStream("student.txt");
+			
+		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+}
